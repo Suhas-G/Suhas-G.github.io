@@ -1,0 +1,62 @@
+baseurl           = "/"
+languageCode      = "en-us"
+theme             = "hello-friend-ng"
+enableEmoji       = true
+
+[Author]
+  name            = "Suhas G"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Suhas G"
+  keywords = "blog, development, programming, artificial intelligence, art"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  customCSS       = ["/css/bootstrap-utilities.css","/css/semantic.css", "/css/base.css", "/css/index.css"]
+  customJS        = ["/js/jquery-3.3.1.js", "/js/semantic.js", "/js/theme.js", "/js/index.js"]
+
+
+  [[params.social]]
+    name          = "github"
+    url           = "https://github.com/Suhas-G"
+
+  [[params.social]]
+    name          = "linkedin"
+    url           = "https://www.linkedin.com/in/suhas-g"
+
+  [[params.social]]
+    name          = "email"
+    url           = "mailto://suhas.g96.sg@gmail.com"
+
+[languages]
+  [languages.en]
+    title = "Suhas G"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "sg"
+      logoHomeLink = "/"
+
+	# You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"

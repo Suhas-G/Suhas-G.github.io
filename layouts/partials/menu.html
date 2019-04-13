@@ -1,0 +1,19 @@
+<nav class="menuBar">
+    <ul class=" ui icon top right dropdown pointing menuDropdown d-md-none m-0">
+        <i class="bars icon large"></i>
+        <div class="menu">
+            {{- $currentPage := . -}}
+            {{ range .Site.Menus.main -}}
+            <div class="item">
+                <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </div>
+            {{- end }}
+        </div>
+    </ul>
+    <ul class="menu__inner d-none d-md-flex">
+        {{- $currentPage := . -}}
+        {{ range .Site.Menus.main -}}
+        <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+        {{- end }}
+    </ul>
+</nav>

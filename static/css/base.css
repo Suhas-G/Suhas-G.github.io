@@ -1,0 +1,7 @@
+.dark-theme a, .dark-theme a:hover, .dark-theme .footer__content{
+    color: #a9a9b3;
+}
+
+a, a:hover, .footer__content{
+    color: rgba(0, 0, 0, 0.87);
+}

@@ -1,0 +1,4 @@
+$(function () {
+    $('.ui.menuDropdown')
+        .dropdown();
+});
