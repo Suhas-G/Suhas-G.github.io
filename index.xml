@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Suhas G</title>
+    <link>/</link>
+    <description>Recent content on Suhas G</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 May 2019 20:49:36 +0530</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Verbs</title>
+      <link>/learning/german/verbs/</link>
+      <pubDate>Sun, 26 May 2019 20:49:36 +0530</pubDate>
+      
+      <guid>/learning/german/verbs/</guid>
+      <description> Verbs I have learnt  Verb Meaning Verb Forms     sein to be   Verb Conjugation   Ich bin   Du bist   Er/Es/Sie ist   Wir sind   Ihr seid   Sie/sie sind        heissen to be called   Verb Conjugation   Ich heisse   Du heisst   Er/Es/Sie heisst   Wir heissen   Ihr heisst   Sie/sie heissen        kommen to come   Verb Conjugation   Ich komme   Du kommst   Er/Es/Sie kommt   Wir kommen   Ihr kommt   Sie/sie kommen        gehen to go   Verb Conjugation   Ich gehe   Du gehst   Er/Es/Sie geht   Wir gehen   Ihr geht   Sie/sie gehen        leigen to be located   Verb Conjugation   Ich leige   Du leigst   Er/Es/Sie leigt   Wir leigen   Ihr leigt   Sie/sie leigen        lernen to learn   Verb Conjugation   Ich lerne   Du lernst   Er/Es/Sie lernt   Wir lernen   Ihr lernt   Sie/sie lernen        haben to have   Verb Conjugation   Ich habe   Du hast   Er/Es/Sie hat   Wir haben   Ihr habt   Sie/sie haben        machen to do   Verb Conjugation   Ich mache   Du machst   Er/Es/Sie macht   Wir machen   Ihr macht   Sie/sie machen        arbeiten to work   Verb Conjugation   Ich arbeite   Du arbeitest   Er/Es/Sie arbeitet   Wir arbeiten   Ihr arbeitet   Sie/sie arbeiten        schreiben to write   Verb Conjugation   Ich schreibe   Du schreibst   Er/Es/Sie schreibt   Wir schreiben   Ihr schreibt   Sie/sie schreiben        telefonieren to call (phone)   Verb Conjugation   Ich telefoniere   Du telefonierst   Er/Es/Sie telefoniert   Wir telefonieren   Ihr telefoniert   Sie/sie telefonieren        kopieren to copy   Verb Conjugation   Ich kopiere   Du kopierst   Er/Es/Sie kopiert   Wir kopieren   Ihr kopiert   Sie/sie kopieren        studieren to study   Verb Conjugation   Ich studiere   Du studierst   Er/Es/Sie studiert   Wir studieren   Ihr studiert   Sie/sie studieren        funktionieren to function   Verb Conjugation   Ich funktioniere   Du funktionierst   Er/Es/Sie funktioniert   Wir funktionieren   Ihr funktioniert   Sie/sie funktionieren        suchen to search   Verb Conjugation   Ich suche   Du suchst   Er/Es/Sie sucht   Wir suchen   Ihr sucht   Sie/sie suchen         </description>
+    </item>
+    
+    <item>
+      <title>Numbers in German</title>
+      <link>/learning/german/numbers/</link>
+      <pubDate>Tue, 14 May 2019 23:59:23 +0530</pubDate>
+      
+      <guid>/learning/german/numbers/</guid>
+      <description>Numbers from 0 to 10  Number Number in Words    0 Null  1 Eins  2 Zwei  3 Drei  4 Vier  5 Fünf  6 Sechs  7 Seiben  8 Acht  9 Neun  10 Zehn    Numbers from 11 to 20  Number Number in Words    11 Elf  12 Zwölf  13 Dreizehn  14 Vierzehn  15 Fünfzehn  16 Sechzehn  17 Seibzehn  18 Achtzehn  19 Neunzehn  20 Zwanzing    Numbers from 21 to 30  Number Number in Words    21 Einsundzwanzig  22 Zweiundzwanzig  23 Dreiundzwanzig  24 Vierundzwanzig  25 Fünfundzwanzig  26 Sechsundzwanzig  27 Seibenundzwanzig  28 Achtundzwanzig  29 Neunundzwanzig  30 Dreiẞig    Tens from 30 to 90  Number Number in Words    30 Dreẞig  40 Vierzig  50 Fünfzig  60 Sechzig  70 Siebzig  80 Achtzig  90 Neunzig    Others  Number Number in Words    100 Einhundert  1000 Eintausend  100000 Einhunderttausend    Usage  Number Number in Words    101 Hunderteins  111 Hundertelf  120 Hundertzwanzig  131 Hunderteindreiẞig  152.</description>
+    </item>
+    
+    <item>
+      <title>Alphabets</title>
+      <link>/learning/german/alphabets/</link>
+      <pubDate>Sat, 11 May 2019 22:16:08 +0530</pubDate>
+      
+      <guid>/learning/german/alphabets/</guid>
+      <description>Alphabets in German and their pronounciation  Alphabet Word Word picture/ Meaning Pronounciation    A Apfel   Apfel     Your browser does not support the audio element.    B Banane   Banane     Your browser does not support the audio element.    C Chor   Chor     Your browser does not support the audio element.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Sat, 13 Apr 2019 19:25:29 +0530</pubDate>
+      
+      <guid>/about/</guid>
+      <description>My name is Suhas. I&amp;rsquo;m an Electronics and Communication Engineer with a tremedous amount of interest in Computer Vision, and by extension Artificial Intelligence, Machine Learning, Augmented Reality and all their relatives. On the other hand I&amp;rsquo;m also drawn to art, animation, web design etc.
+Someday I want to be part of making all of our Sci-Fi movies a reality! 😎
+And this blog is just a way to show what I do in my free time.</description>
+    </item>
+    
+  </channel>
+</rss>
