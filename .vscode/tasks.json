@@ -1,0 +1,39 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Hugo",
+            "type": "shell",
+            "command": "hugo server -D -b http://localhost/ -p 1314 --ignoreCache",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "options": {
+                "statusbar" : "hide"
+            }
+        },
+        {
+            "label": "Start firefox",
+            "type": "shell",
+            "command": "firefox http://localhost:1314/",
+            "presentation": {
+                "reveal": "never",
+                
+            },
+            "options": {
+                "statusbar" : "hide"
+            }
+        },
+        {
+            "label": "Run",
+            "dependsOn": [
+                "Start Hugo",
+                "Start firefox"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

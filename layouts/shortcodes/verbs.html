@@ -1,0 +1,39 @@
+{{ $verbformHeadings := .Site.Data.german.verbs.verbformHeadings }}
+<table class="ui table celled inverted unstackable" id="verbsTable">
+    <thead>
+        <tr class="center aligned">
+            <th>Verb</th>
+            <th>Meaning</th>
+            <th>Verb Forms</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .Site.Data.german.verbs.verbs }}
+            {{ range .verb }}
+                <tr>
+                    <td>{{ .name }}</td>
+                    <td>{{ .meaning }}</td>
+                    <td>
+                        <div class="ui inverted accordion">
+                            <div class="active title">
+                                <i class="dropdown icon"></i>
+                                Verb Conjugation
+                            </div>
+                            <div class="content my-1">
+                                <table class="ui table inverted border compact">
+                                    
+                                    {{ range $key, $value := .forms}}
+                                    <tr>
+                                        <th class="one wide">{{index $verbformHeadings $key}}</th>
+                                        <td class="two wide border">{{ $value }}</td>
+                                    </tr>
+                                    {{ end }}
+                                </table>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            {{ end }}
+        {{ end }}
+    </tbody>
+</table>

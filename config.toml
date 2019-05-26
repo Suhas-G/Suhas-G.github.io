@@ -23,8 +23,8 @@ enableEmoji       = true
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
-  customCSS       = ["/css/bootstrap-utilities.css","/css/semantic.css", "/css/base.css", "/css/index.css"]
-  customJS        = ["/js/jquery-3.3.1.js", "/js/semantic.js", "/js/theme.js", "/js/index.js"]
+  customCSS       = ["/css/bootstrap-utilities.css","/css/semantic.css", "/css/datatables.css", "/css/base.css", "/css/index.css"]
+  customJS        = ["/js/jquery-3.3.1.js", "/js/semantic.js","/js/datatables.js", "/js/theme.js", "/js/index.js"]
 
 
   [[params.social]]
@@ -57,6 +57,10 @@ enableEmoji       = true
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts"
+        identifier = "learning"
+        name = "Learning"
+        url = "/learning"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"

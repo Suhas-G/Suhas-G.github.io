@@ -9,17 +9,44 @@ $(function () {
         document.body.classList.toggle("dark-theme", isDark);
     }
 
+    
+
     themeTogglers.forEach(themeToggle => {
         themeToggle.addEventListener("click", () => {
             document.body.classList.toggle("dark-theme");
+            const isDark = document.body.classList.contains("dark-theme");
             window.localStorage &&
                 window.localStorage.setItem(
                     "theme",
-                    document.body.classList.contains("dark-theme") ? "dark" : "light",
+                    isDark ? "dark" : "light",
                 );
-            document.body.classList.contains("dark-theme") ?
-                metaThemeColor.setAttribute("content", "#252627") : metaThemeColor.setAttribute("content", "#fafafa");;
+            isDark ? metaThemeColor.setAttribute("content", "#252627") : metaThemeColor.setAttribute("content", "#fafafa");;
+
+            for (let index = 0; index < customThemeSwitches.length; index++) {
+                const func = customThemeSwitches[index];
+                func.apply(this, [isDark])
+            }
         });
     });
 
 });
+
+function switchTableTheme(dark){
+    if(dark){
+        $(".table").addClass("inverted");
+    } else{
+        $(".table").removeClass("inverted");
+    }
+    
+}
+
+function switchAccordionTheme(dark){
+    if(dark){
+        $(".accordion").addClass("inverted");
+    } else{
+        $(".accordion").removeClass("inverted");
+    }
+}
+
+const customThemeSwitches = [switchTableTheme, switchAccordionTheme];
+

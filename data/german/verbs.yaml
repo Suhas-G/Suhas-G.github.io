@@ -1,0 +1,64 @@
+verbformHeadings: [Ich, Du, Er/Es/Sie, Wir, Ihr, Sie/sie]
+
+verbs:
+    - verb:
+        - name: sein
+          meaning: to be
+          forms: [bin, bist, ist, sind, seid, sind]
+    - verb:
+        - name: heissen
+          meaning: to be called
+          forms: [heisse, heisst, heisst, heissen, heisst, heissen]
+    - verb:
+        - name: kommen
+          meaning: to come
+          forms: [komme, kommst, kommt, kommen, kommt, kommen]
+    - verb:
+        - name: gehen
+          meaning: to go
+          forms: [gehe, gehst, geht, gehen, geht, gehen]
+    - verb:
+        - name: leigen
+          meaning: to be located
+          forms: [leige, leigst, leigt, leigen, leigt, leigen]
+    - verb:
+        - name: lernen
+          meaning: to learn
+          forms: [lerne, lernst, lernt, lernen, lernt, lernen]
+    - verb:
+        - name: haben
+          meaning: to have
+          forms: [habe, hast, hat, haben, habt, haben]
+    - verb:
+        - name: machen
+          meaning: to do
+          forms: [mache, machst, macht, machen, macht, machen]
+    - verb:
+        - name: arbeiten
+          meaning: to work
+          forms: [arbeite, arbeitest, arbeitet, arbeiten, arbeitet, arbeiten]
+    - verb:
+        - name: schreiben
+          meaning: to write
+          forms: [schreibe, schreibst, schreibt, schreiben, schreibt, schreiben]
+    - verb:
+        - name: telefonieren
+          meaning: to call (phone)
+          forms: [telefoniere, telefonierst, telefoniert, telefonieren, telefoniert, telefonieren]
+    - verb: 
+        - name: kopieren
+          meaning: to copy
+          forms: [kopiere, kopierst, kopiert, kopieren, kopiert, kopieren]
+    - verb:
+        - name: studieren
+          meaning: to study
+          forms: [studiere, studierst, studiert, studieren, studiert, studieren]
+    - verb:
+        - name: funktionieren
+          meaning: to function
+          forms: [funktioniere, funktionierst, funktioniert, funktionieren, funktioniert, funktionieren]
+    - verb:
+        - name: suchen
+          meaning: to search
+          forms: [suche, suchst, sucht, suchen, sucht, suchen]
+

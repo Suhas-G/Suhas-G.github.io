@@ -1,0 +1,22 @@
+{{ $alphabet := .Get 0}}
+{{ $word := .Get 1}}
+{{ $wimg := .Get 2}}
+{{ $pronounciation := .Get 3}}
+<tr class="center aligned">
+    <td>{{ $alphabet }}</td>
+    <td>{{ $word }}</td>
+    <td>
+        <figure>
+            <img src="{{ $wimg }}" alt="{{ $word }}" class="ui centered small image">
+            <figcaption class="ui text center">
+                {{ $word }}
+            </figcaption>
+        </figure>
+    </td>
+    <td>
+        <audio controls src="{{ $pronounciation }}">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+    </td>
+</tr>
