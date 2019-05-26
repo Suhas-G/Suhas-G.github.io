@@ -1,0 +1,26 @@
+#home-title{
+    display: block;
+}
+
+.ui.pointing.dropdown.menuDropdown > .menu{
+    border-radius: 0;
+}
+
+.dark-theme .ui.pointing.dropdown.menuDropdown > .menu{
+    background-color: #393939;
+}
+
+.dark-theme .ui.top.pointing.dropdown.menuDropdown > .left.menu::after, 
+.dark-theme .ui.top.right.pointing.dropdown > .menu::after{
+    background-color: #393939;
+}
+
+.ui.dropdown.menuDropdown .menu > .item{
+    padding-left: 30px!important;
+}
+
+.headerRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

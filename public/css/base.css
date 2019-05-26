@@ -1,0 +1,26 @@
+.dark-theme a, .dark-theme a:hover, .dark-theme .footer__content{
+    color: #a9a9b3;
+}
+
+a, a:hover, .footer__content{
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.break-all{
+    word-break: break-all!important;
+}
+
+/* table */
+
+/* .table table td, .table table th{
+    border: 1px solid;
+    padding: 10px;
+}
+
+.table table{
+    border-collapse: collapse;
+}
+
+.table table td img{
+    max-height: 100px;
+} */
