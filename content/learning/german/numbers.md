@@ -1,7 +1,7 @@
 ---
 title: "Numbers in German"
 date: 2019-05-14T23:59:23+05:30
-draft: true
+draft: false
 ---
 
 ## Numbers from 0 to 10

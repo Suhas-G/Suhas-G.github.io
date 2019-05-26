@@ -1,7 +1,7 @@
 ---
 title: "Alphabets"
 date: 2019-05-11T22:16:08+05:30
-draft: true
+draft: false
 ---
 
 # Alphabets in German and their pronounciation
