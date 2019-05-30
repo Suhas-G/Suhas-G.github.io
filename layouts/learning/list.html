@@ -1,12 +1,12 @@
 {{ define "main" }}
     <main class="posts">
-        <h1 class="mb-3">{{ .Title }}</h1>
+        <h1>{{ .Title }}</h1>
         {{- if .Content }}
             <div class="content">{{ .Content }}</div>
         {{- end }}
 
         {{ if (eq .Title "Learnings") }}
-        <div class="ui link centered cards stackable">
+        <div class="ui link centered cards stackable mt-5">
             {{ range .Sections}}
                 <div class="card">
                     <a class="image" href="{{ .Permalink }}">

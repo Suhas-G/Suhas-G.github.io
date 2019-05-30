@@ -1,0 +1,14 @@
+{{ $id := .Get "id"}}
+{{ $columnHeadingsString := .Get "columnHeadings"}}
+<table class="ui table celled inverted stackable" id="{{ $id }}" {{ with .Get "class"}} class="{{.}}"{{ end }}>
+    <thead>
+        <tr class="center aligned">
+            {{ range (split $columnHeadingsString ",") }}
+                <th>{{.}}</th>
+            {{ end }}
+        </tr>
+    </thead>
+    <tbody>
+        {{.Inner}}
+    </tbody>
+</table>

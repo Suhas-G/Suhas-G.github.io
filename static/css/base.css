@@ -10,6 +10,13 @@ a, a:hover, .footer__content{
     word-break: break-all!important;
 }
 
+@media only screen and (max-width: 767px){
+    .ui.stackable.cards > .card {
+        width: calc(80% - 2em)!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 /* table */
 
 /* .table table td, .table table th{

@@ -1,0 +1,7 @@
+{{ $rowData := .Get "row"}}
+{{ $cellClass := .Get "cellClass"}}
+<tr {{ with .Get "rowClass"}} class="{{.}}"{{ end }}>
+    {{ range (split $rowData ",")}}
+        <td {{ with $cellClass}} class="{{.}}"{{ end }}>{{.}}</td>
+    {{ end }}
+</tr>
