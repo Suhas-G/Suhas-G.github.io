@@ -14,6 +14,7 @@ $(function () {
     var removeStackableFromPagination = function(){
         waitForEl(".dataTables_paginate .pagination", function(){
             $(".dataTables_paginate .pagination").removeClass("stackable");
+            $(".dataTables_paginate .pagination").addClass("p-0");
         });
     }
 
@@ -25,7 +26,7 @@ $(function () {
 
     $("#verbsTable").on("draw.dt", function(){
         removeStackableFromPagination();
-    }).DataTable({"pageLength": 5, "lengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]]});
+    }).DataTable({"pageLength": 10, "lengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]]});
 
     
     removeStackableFromPagination();
