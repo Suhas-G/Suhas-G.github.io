@@ -36,3 +36,15 @@ a{
 blockquote {
     margin-left: 0;
 }
+
+.content *{
+    line-height: 1.8rem!important;
+}
+
+.content p{
+    margin-top: 20px;
+}
+
+.content li{
+    margin-top: 10px;
+}
