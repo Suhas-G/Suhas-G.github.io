@@ -11,7 +11,7 @@ In German, nouns can be in 3 genders- Masculine, Feminine, Neuter. The classific
 
 ### Masculine Nouns
 
-{{< learning/german/datatable id="masculineIndicators" columnHeadings="Indicator, Examples">}}
+{{< learning/german/datatable id="masculineIndicators" columnHeadings="Indicator, Examples" unstackable="true">}}
     {{< learning/german/datarow row="Male People; Mann, Präsident"  delimiter=";" >}}
     {{< learning/german/datarow row="Seasons of the year; Frühling, Sommer, Herbst"  delimiter=";" >}}
     {{< learning/german/datarow row="Days; Sonntag, Montag, Dienstag, Mittwoch.... "  delimiter=";" >}}
@@ -25,7 +25,7 @@ In German, nouns can be in 3 genders- Masculine, Feminine, Neuter. The classific
 
 ### Feminine Nouns
 
-{{< learning/german/datatable id="feminineIndicators" columnHeadings="Indicator, Examples">}}
+{{< learning/german/datatable id="feminineIndicators" columnHeadings="Indicator, Examples" unstackable="true">}}
     {{< learning/german/datarow row="Female People; Frau, Präsidentin"  delimiter=";" >}}
     {{< learning/german/datarow row="Numbers used as nouns; Eins"  delimiter=";" >}}
     {{< learning/german/datarow row="Nouns ending in 'in' / 'e' / 'heit' / 'keit' / 'ung' / 'schaft' / 'ion' / 'tät' / 'ik'; Lehrerin, Sportlerin, Tasche, Straße, Schönheit, Freihiet, Wichligkeit, Freundschaft, Mannschaft, Hoffnung, Endung, Diskussion, Identität, Musik"  delimiter=";" >}}
@@ -34,7 +34,7 @@ In German, nouns can be in 3 genders- Masculine, Feminine, Neuter. The classific
 
 ### Neuter Nouns
 
-{{< learning/german/datatable id="neuterIndicators" columnHeadings="Indicator, Examples">}}
+{{< learning/german/datatable id="neuterIndicators" columnHeadings="Indicator, Examples" unstackable="true">}}
     {{< learning/german/datarow row="Letters of the alphabet; das A"  delimiter=";" >}}
     {{< learning/german/datarow row="Nouns ending with 'chen'/ 'lein'/ 's'/ 'um'/ 'ment'; Buchlein, Maüschen, Kindlein, Fräulein, Mädchen, Haus, Museum, Aquarium, Experiment, Thema , Drama"  delimiter=";" >}}
     {{< learning/german/datarow row="Nouns made from verbs in the infinitive; Laufen, Essen"  delimiter=";" >}}

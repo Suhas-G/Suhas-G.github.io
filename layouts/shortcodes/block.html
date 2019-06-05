@@ -1,0 +1,3 @@
+<div {{if .Params.class }} class='{{ .Get "class" }}' {{ end }} {{ if .Params.style }} style='{{ .Get "style" }}' {{ end}}>
+    {{ .Inner }}
+</div>
