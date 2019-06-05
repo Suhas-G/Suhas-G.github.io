@@ -79,6 +79,7 @@ draft: false
     {{% number "671.694" "Sechshunderteinseibzigsechshundertvierundneinzig" %}}
 {{< /numbers >}}
 
+> ### Note
 > In german for big numbers, instead of comma, dot is used as separator \\
 > For Eg. 100,000 (International) = 100.000 (German) = 1,00,000 (Indian)
 
