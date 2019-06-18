@@ -9,23 +9,21 @@ $(function () {
         document.body.classList.toggle("dark-theme", isDark);
     }
 
-    
+    doCustomThemeSwitches(isDark);
 
     themeTogglers.forEach(themeToggle => {
         themeToggle.addEventListener("click", () => {
             document.body.classList.toggle("dark-theme");
             const isDark = document.body.classList.contains("dark-theme");
+            
+            isDark ? metaThemeColor.setAttribute("content", "#252627") : metaThemeColor.setAttribute("content", "#fafafa");;
+
+            doCustomThemeSwitches(isDark);
             window.localStorage &&
                 window.localStorage.setItem(
                     "theme",
                     isDark ? "dark" : "light",
                 );
-            isDark ? metaThemeColor.setAttribute("content", "#252627") : metaThemeColor.setAttribute("content", "#fafafa");;
-
-            for (let index = 0; index < customThemeSwitches.length; index++) {
-                const func = customThemeSwitches[index];
-                func.apply(this, [isDark])
-            }
         });
     });
 
@@ -48,5 +46,20 @@ function switchAccordionTheme(dark){
     }
 }
 
-const customThemeSwitches = [switchTableTheme, switchAccordionTheme];
+function switchButtonTheme(dark){
+    if(dark){
+        $(".button").addClass("inverted");
+    } else{
+        $(".button").removeClass("inverted");
+    }
+}
+
+function doCustomThemeSwitches(isDark){
+    for (let index = 0; index < customThemeSwitches.length; index++) {
+        const func = customThemeSwitches[index];
+        func.apply(this, [isDark])
+    }
+}
+
+const customThemeSwitches = [switchTableTheme, switchAccordionTheme, switchButtonTheme];
 

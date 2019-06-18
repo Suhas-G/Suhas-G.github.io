@@ -3,14 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/learning/german/articles/</loc>
-    <lastmod>2019-06-05T18:41:47+05:30</lastmod>
+    <loc>/learning/german/nouns/</loc>
+    <lastmod>2019-06-19T00:47:50+05:30</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-06-05T18:41:47+05:30</lastmod>
+    <lastmod>2019-06-19T00:47:50+05:30</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/learning/german/personal-pronouns-and-possessives/</loc>
+    <lastmod>2019-06-09T21:02:21+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/learning/german/articles/</loc>
+    <lastmod>2019-06-05T18:41:47+05:30</lastmod>
   </url>
   
   <url>

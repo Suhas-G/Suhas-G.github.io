@@ -24,6 +24,18 @@ a{
     word-break: break-all!important;
 }
 
+.max-width-100{
+    max-width: 100%;
+}
+
+.ui.dimmer{
+    z-index: 20001
+}
+
+.ui.modal{
+    z-index: 20002;
+}
+
 @media only screen and (max-width: 767px){
     .ui.stackable.cards > .card {
         width: calc(80% - 2em)!important;
