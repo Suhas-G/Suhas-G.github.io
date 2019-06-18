@@ -1,0 +1,157 @@
+nounHeadings:
+- Noun
+- Plural
+- Meaning
+nouns:
+- noun:
+    meaning: The woman
+    name: Die Frau
+    plural: Die Frauen
+- noun:
+    meaning: The man/ Mr
+    name: Der Herr
+    plural: Die Herren
+- noun:
+    meaning: The man
+    name: Der Mann
+    plural: Die Männer
+- noun:
+    meaning: The child
+    name: Das Kind
+    plural: Die Kinder
+- noun:
+    meaning: The student
+    name: Der Student
+    plural: Die Studenten
+- noun:
+    meaning: The Book
+    name: Das Buch
+    plural: Die Bücher
+- noun:
+    meaning: The Lamp
+    name: Die Lampe
+    plural: Die Lampen
+- noun:
+    meaning: The Pencil
+    name: Der Bliestift
+    plural: Die Bleistifte
+- noun:
+    meaning: The Ballpoint Pen
+    name: Der Kugelschreiber
+    plural: Die Kugelschreiber
+- noun:
+    meaning: The Courseroom
+    name: Der Kursraum
+    plural: Die Kursräume
+- noun:
+    meaning: The Notebook/ The booklet
+    name: Das Heft
+    plural: Die Hefte
+- noun:
+    meaning: The writing pad
+    name: Der Block
+    plural: Die Blöcke/ Die Blocks
+- noun:
+    meaning: The  Glass (as in tumbler)
+    name: Das Glas
+    plural: Die Gläser
+- noun:
+    meaning: The Bag
+    name: Die Tasche
+    plural: Die Taschen
+- noun:
+    meaning: The Cup
+    name: Die Tasse
+    plural: Die Tassen
+- noun:
+    meaning: The Laptop
+    name: Der Laptop
+    plural: Die Laptops
+- noun:
+    meaning: The Shoe
+    name: Der Schuh
+    plural: Die Schuhe
+- noun:
+    meaning: The Room
+    name: Das Zimmer
+    plural: Die Zimmer
+- noun:
+    meaning: The Number
+    name: Die Nummer
+    plural: Die Nummern
+- noun:
+    meaning: The Lady
+    name: Die Dame
+    plural: Die Damen
+- noun:
+    meaning: The Toilet
+    name: Die Toilette
+    plural: Die Toiletten
+- noun:
+    meaning: The Door
+    name: Die Tür
+    plural: Die Türen
+- noun:
+    meaning: The Information/The Reception
+    name: Die Information
+    plural: Die Informationen
+- noun:
+    meaning: The Cafeteria
+    name: Die Cafeteria
+    plural: Die Cafeterias/ Die Cafeterien
+- noun:
+    meaning: The Language School
+    name: Die Sprachschule
+    plural: Die Sprachschulen
+- noun:
+    meaning: The Class
+    name: Die Klasse
+    plural: Die Klassen
+- noun:
+    meaning: The Student
+    name: Der Schüler
+    plural: Die Schüler
+- noun:
+    meaning: The Teacher (Male)
+    name: Der Lehrer
+    plural: Die Lehrer
+- noun:
+    meaning: The Teacher (Female)
+    name: Die Lehrerin
+    plural: Die Lehrerinnen
+- noun:
+    meaning: The Page
+    name: Die Seite
+    plural: Die Sieten
+- noun:
+    meaning: The Chair (Stool)
+    name: Der Stühl
+    plural: Die Stühle
+- noun:
+    meaning: The Blackboard
+    name: Die Tafel
+    plural: Die Tafeln
+- noun:
+    meaning: The Picture / The Painting
+    name: Das Bild
+    plural: Die Bilder
+- noun:
+    meaning: The Table
+    name: Der Tisch
+    plural: Die Tische
+- noun:
+    meaning: The Sofa
+    name: Das Sofa
+    plural: Die Sofas
+- noun:
+    meaning: The Rack/The Shelf
+    name: Das Regal
+    plural: Die Regale
+- noun:
+    meaning: The Vase
+    name: Die Vase
+    plural: Die Vasen
+- noun:
+    meaning: The Carpet
+    name: Der Teppich
+    plural: Die Teppiche

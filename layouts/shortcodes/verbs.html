@@ -13,14 +13,17 @@
                 <tr>
                     <td>{{ .name }}</td>
                     <td>{{ .meaning }}</td>
-                    <td>
-                        <div class="ui inverted accordion">
-                            <div class="active title">
-                                <i class="dropdown icon"></i>
-                                Verb Conjugation
+                    <td class="center aligned px-0">
+                        <button class="ui button inverted conjugationModalTrigger max-width-100 mx-1 small" data-target="{{.name}}ConjugationModal">
+                            <small>Conjugate</small>
+                        </button>
+                        <div class="ui small modal" id="{{ .name }}ConjugationModal">
+                            <i class="close icon"></i>
+                            <div class="header">
+                              {{ .name }}
                             </div>
-                            <div class="content my-1">
-                                <table class="ui table inverted border compact">
+                            <div class="content">
+                                <table class="ui table inverted border compact unstackable">
                                     
                                     {{ range $key, $value := .forms}}
                                     <tr>

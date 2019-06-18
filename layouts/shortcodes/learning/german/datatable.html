@@ -1,6 +1,6 @@
 {{ $id := .Get "id"}}
 {{ $columnHeadingsString := .Get "columnHeadings"}}
-<table class="ui table celled inverted {{ if .Params.unstackable }} unstackable {{ else }} stackable {{ end }}" id="{{ $id }}" {{ with .Get "class"}} class="{{.}}"{{ end }}>
+<table class='ui table celled inverted {{ if .Params.unstackable }} unstackable {{ else }} stackable {{ end }}' id="{{ $id }}">
     <thead>
         <tr class="center aligned">
             {{ range (split $columnHeadingsString ",") }}

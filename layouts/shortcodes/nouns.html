@@ -1,0 +1,19 @@
+{{ $nounHeadings := .Site.Data.german.nouns.nounHeadings }}
+<table class="ui table celled inverted unstackable" id="nounsTable">
+    <thead>
+        <tr class="center aligned">
+            {{ range $nounHeadings }}
+                <th>{{ . }}</th>
+            {{ end }}
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .Site.Data.german.nouns.nouns }}
+        <tr>
+            <td> {{.noun.name }}</td>
+            <td> {{ .noun.plural }}</td>
+            <td> {{ .noun.meaning }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
