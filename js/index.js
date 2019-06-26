@@ -30,7 +30,7 @@ $(function () {
         removeStackableFromPagination();
     }).DataTable({"pageLength": 10, "lengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]], "pagingType": "full"});
 
-    $("button.conjugationModalTrigger").click(function(){
+    $("#verbsTable").on("click", "button.conjugationModalTrigger", function(){
         var target = $(this).data("target");
         $("#" + target).modal("show");
     });
