@@ -23,7 +23,7 @@ verbs:
           forms: [leige, leigst, leigt, leigen, leigt, leigen]
     - verb:
         - name: lernen
-          meaning: to learn
+          meaning: to learn / to teach
           forms: [lerne, lernst, lernt, lernen, lernt, lernen]
     - verb:
         - name: haben
@@ -61,4 +61,20 @@ verbs:
         - name: suchen
           meaning: to search
           forms: [suche, suchst, sucht, suchen, sucht, suchen]
+    - verb:
+        - name: planen
+          meaning: to plan
+          forms: [plane, planst, plant, planen, plant, planen]
+    - verb:
+        - name: verkaufen
+          meaning: to sell
+          forms: [verkaufe, verkaufst, verkauft, verkaufen, verkauft, verkaufen]
+    - verb:
+        - name: buchstabieren
+          meaning: to spell
+          forms: [buchstabiere, buchstabierst, buchstabiert, buchstabieren, buchstabiert, buchstabieren]
+    - verb:
+        - name: wohnen
+          meaning: to live/ to stay
+          forms: [wohne, wohnst, wohnt, wohnen, wohnt, wohnen]
 
