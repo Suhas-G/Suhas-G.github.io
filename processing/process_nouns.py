@@ -1,7 +1,7 @@
 import csv_to_yaml
 
-SOURCE_FILEPATH = "../customData/german/nouns.csv"
-DEST_FILEPATH = "../data/german/nouns.yml"
+SOURCE_FILEPATH = "customData/german/nouns.csv"
+DEST_FILEPATH = "data/german/nouns.yml"
 
 def get_nouns(noun_list):
     nouns = []

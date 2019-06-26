@@ -155,3 +155,107 @@ nouns:
     meaning: The Carpet
     name: Der Teppich
     plural: Die Teppiche
+- noun:
+    meaning: The Occupation
+    name: Der Beruf
+    plural: Bie Berufe
+- noun:
+    meaning: The Saleswoman
+    name: Die Verkäuferin
+    plural: Die Verkäuferinnen
+- noun:
+    meaning: The Salesman
+    name: Der Verkäufer
+    plural: Die Verkäufer
+- noun:
+    meaning: The Bank clerk (female)
+    name: Die Bankkauffrau
+    plural: Die Bankkauffrauen
+- noun:
+    meaning: The Bank clerk (male)
+    name: Der Bankkaufmann
+    plural: Die Bankkaufleute
+- noun:
+    meaning: The Doctor (male)
+    name: Der Arzt
+    plural: Die Ärzte
+- noun:
+    meaning: The Engineer
+    name: Der Ingenieur
+    plural: Die Ingenieure
+- noun:
+    meaning: The Cook (female)
+    name: Die Köchin
+    plural: Die Köchinnen
+- noun:
+    meaning: The Waitress
+    name: Die Kellnerin
+    plural: Die Kellnerinnen
+- noun:
+    meaning: The Assistant
+    name: Die Assistentin
+    plural: Die Assistentinnen
+- noun:
+    meaning: The University
+    name: Die Universität
+    plural: Die Universitäten
+- noun:
+    meaning: The Document
+    name: Das Dokument
+    plural: Die Dokumente
+- noun:
+    meaning: The House
+    name: Das Haus
+    plural: Die Häuser
+- noun:
+    meaning: The Baker
+    name: Der Bäcker
+    plural: Die Bäcker
+- noun:
+    meaning: The Work
+    name: Die Arbeit
+    plural: Die Arbeiten
+- noun:
+    meaning: The Pensioner
+    name: Der Rentner
+    plural: Die Rentner
+- noun:
+    meaning: The Architect (male)
+    name: Der Architekt
+    plural: Die Architekten
+- noun:
+    meaning: The Architect (female)
+    name: Die Architektin
+    plural: Die Architektinnen
+- noun:
+    meaning: The Restaurant
+    name: Das Restaurant
+    plural: Die Restaurants
+- noun:
+    meaning: The Owner/ The Landlord
+    name: Der Wirt
+    plural: Die Wirte
+- noun:
+    meaning: The chief
+    name: Der Chef
+    plural: Die Chefs
+- noun:
+    meaning: The Phone number
+    name: Die Telefonnummer
+    plural: Die Telefonnummern
+- noun:
+    meaning: The Mobile Number
+    name: Die Handynummer
+    plural: Die Handynummern
+- noun:
+    meaning: The Address
+    name: Die Adresse
+    plural: Die Adressen
+- noun:
+    meaning: The Zipcode
+    name: Die Postleitzahl
+    plural: Die Postleitzahlen
+- noun:
+    meaning: The STD code
+    name: Die Vorwahl
+    plural: Die Vorwahlen

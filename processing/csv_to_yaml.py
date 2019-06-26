@@ -16,7 +16,7 @@ def read_csv(filepath, callback=None, eager_loading=False):
             
             if eager_loading:
                 data = list(reader)
-
+    if data is None: print("Could not load file", filepath.absolute().resolve())
     return data
 
 def write_yaml(filepath, data, overwrite=False):
