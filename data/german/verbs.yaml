@@ -77,4 +77,193 @@ verbs:
         - name: wohnen
           meaning: to live/ to stay
           forms: [wohne, wohnst, wohnt, wohnen, wohnt, wohnen]
+    - verb:
+        - name: sehen
+          meaning: to see 
+          forms: [sehe, siehst, sieht, sehen, seht, sehen]
+    - verb:
+        - name: öffnen
+          meaning: to open/ to display
+          forms: [öffne, öffnest, öffnet, öffnen, öffnet, öffnen]
+    - verb:
+        - name: schließen
+          meaning: to close
+          forms: [schließe, schließt, schließen, schließt, schließen]
+    - verb:
+        - name: beginnen
+          meaning: to begin
+          forms: [beginne, beginnst, beginnt, beginnen, beginnt, beginnen]
+    - verb:
+        - name: dauern
+          meaning: to last
+          forms: [dauere, dauerst, dauert, dauern, dauert, dauern]
+    - verb:
+        - name: enden
+          meaning: to end
+          forms: [ende, endest, endet, enden, endet, enden]
+    - verb:
+        - name: warten
+          meaning: to wait
+          forms: [warte, wartest, wartet, warten, wartet, warten]
+    - verb: 
+        - name: schauen
+          meaning: to look / to see / to watch
+          forms: [schaue, schaust, schaut, schauen, schaut, schauen]
+    - verb:
+        - name: treffen
+          meaning: to meet
+          forms: [treffe, triffst, trifft, treffen, trefft, treffen]
+    - verb:
+        - name: schlafen
+          meaning: to sleep
+          forms: [schlafe, schläfst, schläft, schlafen, schlaft, schlafen]
+    - verb:
+        - name: baden
+          meaning: to bathe
+          forms: [bade, badest, badet, baden, badet, baden]
+    - verb:
+        - name: bezahlen
+          meaning: to pay
+          forms: [bezahle, bezahlst, bezahlt, bezahlen, bezahlt, bezahlen]
+    - verb:
+        - name: geben
+          meaning: to enter / to give
+          forms: [gebe, gibst, gibt, geben, gebt, geben]
+    - verb:
+        - name: benutzen
+          meaning: to use / to utilze, to take
+          forms: [benutze, benutzt, benutzt, benutzen, benutzt, benutzen]
+    - verb:
+        - name: kosten
+          meaning: to cost / to taste
+          forms: [koste, kostest, kostet, kosten, kostet, kosten]
+    - verb:
+        - name: teilen 
+          meaning: to share / to divide / to split
+          forms: [teile, teilst, teilt, teilen, teilt, teilen]
+    - verb: 
+        - name: finden 
+          meaning: to find
+          forms: [finde, findest, findet, finden, findet, finden]
+    - verb:
+        - name: nehmen
+          meaning: to take / to make / to use
+          forms: [nehme, nimmst, nimmt, nehmen, nehmt, nehmen]
+    - verb:
+        - name: sitzen
+          meaning: to sit
+          forms: [sitze, sitzt, sitzt, sitzen, sitzt, sitzen]
+    - verb:
+        - name: sagen
+          meaning: to say / to tell / to know
+          forms: [sage, sagst, sagt, sagen, sagt, sagen]
+    - verb:
+        - name: stehen
+          meaning: to stand / to face
+          forms: [stehe, stehst, steht, stehen, steht, stehen]
+    - verb:
+        - name: hängen
+          meaning: to hang / to depend on / to attach
+          forms: [hänge, hängst, hängt, hängen, hängt, hängen]
+    - verb:
+        - name: mogen
+          meaning: to like
+          forms: [mag, magst, mag, mögen, mögt, mögen]
+    - verb:
+        - name: shoppen
+          meaning: to shop
+          forms: [shoppe, shoppst, shoppt, shoppen, shoppt, shoppen]
+    - verb:
+        - name: fahren
+          meaning: to drive / to ride
+          forms: [fahre, fährst, fährt, fahren, fahrt, fahren]
+    - verbs:
+        - name: wandern
+          meaning: to wander / to walk / to migrate
+          forms: [wandere, wanderst, wandert, wandern, wandert, wamdern]
+    - verb:
+        - name: bleiben
+          meaning: to stay / to remain
+          forms: [bleibe, bleibst, bleibt, bleiben, bleibt, bleiben]
+    - verb:
+        - name: besichtigen
+          meaning: to visit / to tour
+          forms: [besichtige, besichtigst, besichtigt, besichtigen, besichtigt, besichtigen]
+    - verb:
+        - name: stecken
+          meaning: to put
+          forms: [stecke, steckst, steckt, stecken, steckt, stecken]
+    - verb:
+        - name: setzen
+          meaning: to set/ to sit down/ to put
+          forms: [setze, setzt, setzt, setzen, setzt, setzen]
+    - verb:
+        - name: erzählen
+          meaning: to tell / to talk
+          forms: [erzähle, erzählst, erzählt, erzählen, erzählt, erzählen]
+    - verb:
+        - name: steigen
+          meaning: to rise / to grow / to climb
+          forms: [steige, steigst, steigt, steigen, steigt, steigen]
+    - verb:
+        - name: lesen
+          meaning: to read
+          forms: [lese, liest, liest, lesen, lest, lesen]
+    - verb:
+        - name: hören
+          meaning: to hear
+          forms: [höre, hörst, hört, hören, hört, hören]
+    - verb:
+        - name: spielen
+          meaning: to play
+          forms: [spiele, spielst, spielt, spielen, spielt, spielen]
+    - verb:
+        - name: üben
+          meaning: to practice
+          forms: [übe, übst, übt, üben, übt, üben]
+    - verb:
+        - name: reisen
+          meaning: to travel
+          forms: [reise, reist, reist, reisen, reist, reisen]
+    - verb:
+        - name: putzen
+          meaning: to clean
+          forms: [putze, putzt, putzt, putzen, putzt, putzen]
+    - verb:
+        - name: waschen
+          meaning: to wash 
+          forms: [wasche, wäschst, wäscht, waschen, wascht, waschen]
+    - verb:
+        - name: reiten
+          meaning: to ride
+          forms: [reite, reitest, reitet, reiten, reitet, reiten]
+    - verb:
+        - name: malen
+          meaning: to paint
+          forms: [male, malst, malt, malen, malt, malen]
+    - verb:
+        - name: kochen
+          meaning: to cook
+          forms: [koche, kochst, kocht, kochen, kocht, kochen]
+    - verb:
+        - name: sprechen
+          meaning: to speak
+          forms: [spreche, sprichst, spricht, sprechen, spricht, sprechen]
+    - verb:
+        - name: trinken
+          meaning: to drink
+          forms: [trinke, trinkst, trinkt, trinken, trinkt, trinken]
+    - verb:
+        - name: kennen
+          meaning: to know / to be familiar with
+          forms: [kenne, kennst, kennt, kennen, kennt, kennen]
+    - verb:
+        - name: passen
+          meaning: to fit 
+          forms: [passe, passt, passt, passen, passt, passen]
+    - verb:
+        - name: rufen
+          meaning: to call
+          forms: [rufe, rufst, ruft, rufen, ruft, rufen]
+    
 
